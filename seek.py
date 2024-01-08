@@ -1,0 +1,6 @@
+file=open("second.txt","r")
+print(file.tell())
+print(file.read(3))
+print(file.seek(0))
+print(file.read())
+file.close()
